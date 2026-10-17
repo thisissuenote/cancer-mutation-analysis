@@ -50,7 +50,9 @@ cancer-mutation-analysis/
 ├── cancer-mutation-analysis.ipynb
 
 └── data/
+
     ├── clinical.csv
+    
     └── mutation.csv
 
 6. Limitations
