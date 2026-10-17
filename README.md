@@ -52,7 +52,7 @@ cancer-mutation-analysis/
 └── data/
 
     ├── clinical.csv
-    
+
     └── mutation.csv
 
 6. Limitations
