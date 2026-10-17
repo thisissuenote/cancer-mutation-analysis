@@ -15,7 +15,21 @@ Jupyter Notebook
 
 Plotly
 
-3. Analysis Workflow
+3. Dataset
+
+This project uses synthetic clinical and genetic mutation datasets generated for educational and portfolio purposes.
+
+clinical.csv: Synthetic patient-level clinical information.
+
+mutation.csv: Synthetic genetic mutation records.
+
+The datasets do not represent actual patients or real clinical cases. They are intended for practicing data cleaning, exploratory data analysis, and integration of clinical and genomic data using Python.
+
+4. Project Scope
+
+This is a self-directed learning project focused on applying Python and pandas to a simulated cancer genomics dataset. The analysis is exploratory and does not support clinical decision-making.
+
+5. Analysis Workflow
 
 Inspect clinical and mutation datasets.
 
@@ -31,7 +45,7 @@ Analyze the distribution of mutation consequences.
 
 Explore mutation patterns across age groups and cancer stages.
 
-4. Data Handling
+6. Data Handling
 
 Duplicate mutation records are removed before downstream analyses.
 
@@ -41,7 +55,7 @@ Clinical data are used as the base when merging datasets, preserving patients li
 
 The absence of a recorded mutation does not necessarily confirm that a patient has no mutations.
 
-5. Repository Structure
+7. Repository Structure
 
 ```text
 cancer-mutation-analysis/
@@ -52,6 +66,6 @@ cancer-mutation-analysis/
     └── mutation.csv
 ```
 
-6. Limitations
+8. Limitations
 
 This is an exploratory data analysis project. Results depend on the completeness and quality of the available data and should not be interpreted as clinical conclusions.
