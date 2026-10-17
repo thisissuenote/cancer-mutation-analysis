@@ -43,16 +43,12 @@ The absence of a recorded mutation does not necessarily confirm that a patient h
 
 5. Repository Structure
 
+```text
 cancer-mutation-analysis/
-
 ├── README.md
-
 ├── cancer-mutation-analysis.ipynb
-
 └── data/
-
     ├── clinical.csv
-
     └── mutation.csv
 
 6. Limitations
